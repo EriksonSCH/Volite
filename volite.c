@@ -2,7 +2,7 @@
 #include <string.h>
 #include "funcs.h"
 
-// Compiler for Volite
+// Interpreter for Volite
 
 typedef struct Lexer{
 	char LBRACKET;
