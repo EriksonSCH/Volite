@@ -88,8 +88,8 @@ void parser(const char *src, Lexer *lexer){
 	}
 
 	printf("\n--CURRENT STATE-- :: BRACKETS: %d | QUOTE: %d | KEYWORD: %d | \n", lexer->BRACKET_STATE,
-																			  lexer->QUOTE_STATE,
-																			  keyword_found);
+										     lexer->QUOTE_STATE,
+										     keyword_found);
 
 	if(lexer->QUOTE_STATE == 1 && lexer->BRACKET_STATE == 1 && keyword_found == 1){
 		printf("\nOutput: \n\n");
