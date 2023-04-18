@@ -111,9 +111,6 @@ int main(int argc, char **argv){
 
 	char file_buf[100];
 	int it = 0;
-	int new_line = 0;
-	int index = -1;
-	int comment_found = 0;
 
 	// read file
 	FILE *file = fopen(argv[1], "r");
